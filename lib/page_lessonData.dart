@@ -399,27 +399,6 @@ class lessond_state extends State<page_lessonData> {
                     ),
                   ),
 
-                  // SizedBox(
-                  //   width: 70,
-                  //   height: 60,
-                  //   child: Container(
-                  //     // color: Colors.blue, // สีที่คุณต้องการใส่ให้กับ SizedBox
-                  //     child: Visibility(
-                  //       visible:
-                  //           hard_op, // กำหนดให้เป็น true หรือ false ตามตัวแปร vis
-                  //       child: ElevatedButton(
-                  //         onPressed: () {
-
-                  //         },
-                  //         child: Text(
-                  //           "4/4",
-                  //           style: TextStyle(fontSize: 20),
-                  //         ),
-                  //       ),
-                  //     ),
-                  //   ),
-                  // ),
-
 // Step 2.
                   SizedBox(
                     width: 75,
@@ -461,61 +440,6 @@ class lessond_state extends State<page_lessonData> {
                       ),
                     ),
                   ),
-
-                  // Visibility(
-                  //   visible:
-                  //       hard_op, // กำหนดให้เป็น true หรือ false ตามตัวแปร vis
-                  //   child: DropdownButton<String>(
-                  //     // Step 3.
-                  //     value: dropdownValue,
-                  //     // Step 4.
-                  //     items: <String>['4/4', '6/8']
-                  //         .map<DropdownMenuItem<String>>((String value) {
-                  //       return DropdownMenuItem<String>(
-                  //         value: value,
-                  //         child: Text(
-                  //           value,
-                  //           style: TextStyle(fontSize: 30),
-                  //         ),
-                  //       );
-                  //     }).toList(),
-                  //     // Step 5.
-                  //     onChanged: (String? newValue) {
-                  //       setState(() {
-                  //         dropdownValue = newValue!;
-
-                  //         if (dropdownValue == '4/4') {
-                  //           isVisible = false;
-                  //           maxroom = 4;
-                  //         } else {
-                  //           isVisible = true;
-                  //           maxroom = 6;
-                  //         }
-                  //       });
-                  //     },
-                  //   ),
-                  // )
-
-// DropdownButton<String>(
-//       value: _selectedItem,
-//       icon: Icon(Icons.arrow_drop_down),
-//       onChanged: (String? newValue) {
-//         setState(() {
-//           _selectedItem = newValue!;
-//         });
-//       },
-//       items: _options.map<DropdownMenuItem<String>>((String value) {
-//         return DropdownMenuItem<String>(
-//           value: value,
-//           child: Text(value),
-//         );
-//       }).toList(),
-//     ),
-                  // SizedBox(
-                  // width: 50,
-                  // height: 40,
-                  //   // color: Color.fromARGB(255, 211, 142, 120),
-                  // ),
                 ],
               ),
               Row(
